@@ -1,0 +1,28 @@
+.bg-color{
+  background-color: var(--gray-dark);
+  position: fixed;
+  font-weight: 500;
+}
+
+.navbar-brand{
+  color: var(--white) !important;
+}
+
+.nav-link {
+  color: var(--gray);
+  transition: .2s;
+}
+
+.nav-link:hover {
+  color: var(--white);
+  transition: .2s;
+}
+
+
+
+.nav-icon{
+  color: var(--white)!important;
+  transform: rotateZ(90deg);
+  padding: 0;
+  text-align: center;
+}
